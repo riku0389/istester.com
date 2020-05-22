@@ -24,7 +24,7 @@ class NewThread implements Runnable{
 
 public class ThreadDemo {
     public static void main(String[] args) {
-        new NewThread();
+        new NewThreadd();
         try{
             for(int i=5;i>0;i--){
                 System.out.println("Main Thread: "+i);
